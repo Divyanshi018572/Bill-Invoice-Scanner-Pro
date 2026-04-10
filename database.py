@@ -17,8 +17,8 @@ from pathlib import Path
 import pandas as pd
 from datetime import datetime
 
-# Database file path relative to the project folder
-DB_PATH = Path(__file__).parent / "invoices.db"
+# Database file path routed to /tmp to bypass Docker Read-Only locks
+DB_PATH = Path("/tmp/invoices.db")
 
 
 def init_db():
