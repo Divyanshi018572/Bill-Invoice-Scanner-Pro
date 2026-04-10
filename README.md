@@ -3,7 +3,7 @@ title: Bill Invoice Scanner Pro
 emoji: 🧾
 colorFrom: blue
 colorTo: indigo
-sdk: streamlit
+sdk: docker
 sdk_version: 1.42.0
 app_file: app.py
 pinned: false
