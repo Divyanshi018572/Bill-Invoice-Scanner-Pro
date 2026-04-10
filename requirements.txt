@@ -1,0 +1,12 @@
+streamlit==1.42.0
+pandas>=2.0.0
+numpy<2.0
+pillow<11.0
+easyocr==1.7.2
+plotly
+openpyxl
+
+# Machine Learning & GPU dependencies (installed with specified cu118 flags)
+# pip install torch==2.3.1+cu118 torchvision==0.18.1+cu118 torchaudio==2.3.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+torch==2.3.1
+torchvision==0.18.1

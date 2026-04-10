@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Datasets
+SROIE_Dataset/
+
+# Temp files
+*.jpg
+*.png
+*.jpeg
+temp_sample_*.jpg
+
+# Databases
+*.db
+*.sqlite3
+
+# Exports
+exports/
+bill_scanner/exports/
+
+# Ideas/Logs
+.idea/
+.vscode/
+*.log
