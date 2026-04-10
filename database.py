@@ -17,12 +17,8 @@ from pathlib import Path
 import pandas as pd
 from datetime import datetime
 
-# Database file path: utilize Render's persistent disk at /data if available, otherwise local folder.
-DATA_DIR = Path("/data")
-if DATA_DIR.exists() and DATA_DIR.is_dir():
-    DB_PATH = DATA_DIR / "invoices.db"
-else:
-    DB_PATH = Path(__file__).parent / "invoices.db"
+# Database file path relative to the project folder
+DB_PATH = Path(__file__).parent / "invoices.db"
 
 
 def init_db():
